@@ -1,4 +1,4 @@
-##SportAgency - Simple ASP.NET MVC Project
+##Fileload-with-MVC - Simple ASP.NET MVC Project
 
 This is a simple web application for reading few text files provided through web page and inserting into relevant table and list a required resultset into the webpage.
 
@@ -27,4 +27,4 @@ This is a simple web application for reading few text files provided through web
 
 
 
-This is a simple asp.net mvc project which being developed in accordance for personal develpment experience.
+This is a simple asp.net mvc project which being developed in accordance for personal development experience.
