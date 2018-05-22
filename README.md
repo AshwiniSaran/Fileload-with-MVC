@@ -1,12 +1,12 @@
-##Fileload-with-MVC - Simple ASP.NET MVC Project
+## Fileload-with-MVC - Simple ASP.NET MVC Project
 
 This is a simple web application for reading few text files provided through web page and inserting into relevant table and list a required resultset into the webpage.
 
-#PREREQUISITIES
+## PREREQUISITIES
 - Visual Studio with MVC support
 - Microsoft SQL Server
 
-#CODE SETUP
+## CODE SETUP
 - Clone/Download the project from github url https://github.com/AshwiniSaran/SportAgency
 - Open the solution file(SportAgency.sln) through visual studio.
 - Change the path of the sports.txt(its included in the repository under textfilestoload folder) under <appsetting> at the below line in web.config file
@@ -18,7 +18,7 @@ This is a simple web application for reading few text files provided through web
     <add name ="con" connectionString="Data Source=YourDataSource;Initial Catalog=SPORTAGENCY_DB;Integrated Security=True;Pooling=False"/>
   </connectionStrings>
 
-#EXECUTION
+## EXECUTION
 - Then can execute the project by pressing F5 or Debug->Start Debugging
 - The webpage will be opened in the web browser with http://localhost:portnumber
 - There LoadSport button to be clicked in order to load the sports.txt file data to the database
