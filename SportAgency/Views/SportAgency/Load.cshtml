@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> Sport Agency</title>
+</head>
+<body>
+    <div>
+        
+        <button type="button" id="btnloadsports" onclick='location.href="@Url.Action("uploadSports", "SportAgency")"'>Load Sports</button>
+        
+    </div>
+    <div>
+        <form method="post" action="@Url.Action("uploadathleteandagent", "SportAgency")">
+        <input type="text" name="textFileDirectory" placeholder="Enter file path here" required />
+        <div>
+            <button type="submit" id="btnloadathlethesandagents"> Load Athletes and Agents </button>
+        </div>
+        </form>
+        <div>
+            @Html.ActionLink("Show", "Show")
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>

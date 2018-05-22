@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SportAgency.Models.SportAgency>
+
+<p>
+    @Html.ActionLink("Load", "Load")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.athlete_firstname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.athlete_lastname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dob)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sport)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AgentName)
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.athlete_firstname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.athlete_lastname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dob)
+        </td>
+        <th>
+            @Html.DisplayFor(modelItem => item.sport)
+        </th>
+        <td>
+            @Html.DisplayFor(modelItem => item.AgentName)
+        </td>
+
+    </tr>
+    
+}
+
+</table>

@@ -1,0 +1,5 @@
+Basketball	BASKETBALL	5
+Football	FOOTBALL	11
+Hockey	HOCKEY	6
+Soccer	SOCCER	11
+Baseball	BASEBALL	9
